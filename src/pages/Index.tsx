@@ -1,16 +1,19 @@
-// Update this page (the content is just a fallback if you fail to update the page)
-
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
+const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
-    </div>
+    <main className="flex min-h-screen flex-col items-center justify-center gap-8 bg-black px-6 text-center">
+      <h1 className="text-5xl font-extrabold text-red-600 md:text-7xl lg:text-8xl">
+        la de prueba delox
+      </h1>
+      <a
+        href="https://youtu.be/SU_7GdtlAFk?si=ah66oA49DaGwhvXl"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="rounded-lg bg-red-600 px-10 py-4 text-xl font-bold text-white transition-transform hover:scale-105 hover:bg-red-700"
+      >
+        Ver
+      </a>
+    </main>
   );
 };
-
-const Index = PlaceholderIndex;
 
 export default Index;
