@@ -18,6 +18,8 @@ const Index = () => {
       >
         Ver
       </a>
+      <h2 className="sr-only">turidelon</h2>
+      <p className="sr-only">turidelon - la de prueba delox - sitio oficial de turidelon con video exclusivo.</p>
     </main>
   );
 };
